@@ -1,0 +1,22 @@
+{
+  "windows": {
+    "paths": [
+      "C:\\Temp\\*",
+      "C:\\Windows\\Temp\\*",
+      "%USERPROFILE%\\AppData\\Local\\Temp\\*"
+    ]
+  },
+  "linux": {
+    "paths": [
+      "/tmp/*",
+      "/var/tmp/*",
+      "~/.cache/*"
+    ]
+  },
+  "darwin": {
+    "paths": [
+      "/tmp/*",
+      "~/Library/Caches/*"
+    ]
+  }
+}
